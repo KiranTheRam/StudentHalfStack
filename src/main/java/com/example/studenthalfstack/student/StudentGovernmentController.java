@@ -7,13 +7,13 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/student")
-public class StudentController {
+@RequestMapping("government/student")
+public class StudentGovernmentController {
 
     private final StudentService studentService;
 
     @Autowired
-    public StudentController(StudentService studentService) {
+    public StudentGovernmentController(StudentService studentService) {
         this.studentService = studentService;
     }
 
